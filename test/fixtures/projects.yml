@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  material_id: MyString
+  integer: MyString
+  task_id: 1
+  estimated_cost: 1
+  name: MyString
+  type_of_project: MyString
+
+two:
+  material_id: MyString
+  integer: MyString
+  task_id: 1
+  estimated_cost: 1
+  name: MyString
+  type_of_project: MyString
