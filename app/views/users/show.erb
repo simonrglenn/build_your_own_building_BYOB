@@ -1,0 +1,12 @@
+<h1> Show </h1>
+
+
+
+<ul>
+<%= @userprojects.each do |userproject| %>
+<label>User Name: <%= userproject.user.name%> </label><br/>  Project Name: <%= userproject.project.name%> <br/>
+
+
+<% end %>
+
+</ul>
