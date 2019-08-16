@@ -14,9 +14,6 @@ ActiveRecord::Schema.define(version: 2019_08_15_205709) do
 
   create_table "building_materials", force: :cascade do |t|
     t.string "material_name"
-    t.string "unit"
-    t.integer "quantity"
-    t.boolean "acquired?"
     t.integer "project_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

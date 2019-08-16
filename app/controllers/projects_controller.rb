@@ -4,4 +4,9 @@ class ProjectsController < ActionController::Base
         @projects = Project.all
     end
 
+    def show
+        @project = Project.find(params[:id])
+        @userprojects = UserProject.where(project_id: params[:id])
+    end 
+
 end

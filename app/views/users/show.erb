@@ -4,7 +4,7 @@
 
 <ul>
 <%= @userprojects.each do |userproject| %>
-<label>User Name: <%= userproject.user.name%> </label><br/>  Project Name: <%= userproject.project.name%> <br/>
+<label>User Name: <%= userproject.user.name%> </label><br/>  Project Name: <%= link_to userproject.project.name, project_path(userproject.project)    %> <br/>
 
 
 <% end %>
